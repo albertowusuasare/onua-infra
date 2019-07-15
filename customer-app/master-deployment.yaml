@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: customer-svc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: customer-svc
+  template:
+    metadata:
+      labels:
+        app: customer-svc
+    spec:
+      containers:
+      - name: customer-svc
+        image: gcr.io/onua-246719/customer-svc@sha256:3e1162d3a1db9aba2dffeca40db75381f89fd8907e7d4f65e4c289c2f520e506
+        ports:
+        - containerPort: 5090
