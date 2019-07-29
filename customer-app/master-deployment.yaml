@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: customer-svc
-        image: gcr.io/onua-246719/customer-svc@sha256:3e1162d3a1db9aba2dffeca40db75381f89fd8907e7d4f65e4c289c2f520e506
+        image: gcr.io/onua-246719/customer-svc@sha256:d201d1aa345dd17a3bb5b40c211ac0321407084e0cdcf2f0ffad86acd9da1d12
         ports:
         - containerPort: 5090
