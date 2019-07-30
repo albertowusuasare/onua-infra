@@ -7,8 +7,8 @@ echo $HOME
 mkdir $DEPLOY_PATH
 cd $DEPLOY_PATH
 git clone https://github.com/albertowusuasare/customer-app.git
-git checkout $SOURCE_VERSION
 cd ./customer-app/cmd/customer-svc-func/google
+git checkout $SOURCE_VERSION
 go mod init
 go mod tidy
 go mod vendor
