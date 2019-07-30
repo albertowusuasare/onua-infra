@@ -18,7 +18,8 @@ SOURCE_VERSION=0.0.4
 
 ```
 - A pull request should be approved and then merged to develop
-- In google cloud functions console,  run ```deploy.sh``` for the DEV environment
+- In google cloud functions console, navigate to ```./<app>/cloud-func```
+- Run ```deploy.sh``` for the DEV environment
 - Once a checkout is done, create a release branch and update the manifest there.
 - At a set period in time the release is performed
 - If all goes well, merge the release branch to master.
