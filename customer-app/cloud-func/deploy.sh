@@ -1,6 +1,6 @@
 #!/bin/sh
 export GO111MODULE=on
-SOURCE_VERSION=v0.0.4
+SOURCE_VERSION=v0.0.6
 DEPLOY_PATH=customer-app-deploy
 HOME=$(pwd)
 echo $HOME
