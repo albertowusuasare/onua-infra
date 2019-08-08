@@ -1,6 +1,6 @@
 #!/bin/sh
 export MOD_PKG_NAME=functions
-SOURCE_VERSION=v0.1.2
+SOURCE_VERSION=v0.1.3
 DEPLOY_PATH=customer-app-deploy
 HOME=$(pwd)
 FUNCTION_PATH=customer-app/cmd/customer-svc-func-gcp
