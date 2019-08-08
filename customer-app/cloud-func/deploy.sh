@@ -1,6 +1,6 @@
 #!/bin/sh
 export GO111MODULE=on
-SOURCE_VERSION=v0.1.1
+SOURCE_VERSION=v0.1.2
 DEPLOY_PATH=customer-app-deploy
 HOME=$(pwd)
 FUNCTION_PATH=customer-app/cmd/customer-svc-func-gcp
