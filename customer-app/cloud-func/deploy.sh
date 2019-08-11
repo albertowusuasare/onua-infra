@@ -9,7 +9,7 @@ mkdir $DEPLOY_PATH
 cd $DEPLOY_PATH
 git clone https://github.com/albertowusuasare/customer-app.git
 cd ./$FUNCTION_PATH
-SOURCE_VERSION=v0.4.0
+git checkout $SOURCE_VERSION
 $HOME/$DEPLOY_PATH/customer-app/script/gomod.sh 
 gcloud functions deploy customer-svc-func-gcp --entry-point Handle --runtime go111 --trigger-http --set-env-vars PROJECT_ID=$PROJECT_ID
 cd $HOME
