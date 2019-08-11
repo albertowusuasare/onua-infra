@@ -1,7 +1,7 @@
 #!/bin/sh
 MOD_PKG_NAME=functions
 PROJECT_ID=onua-246719
-SOURCE_VERSION=v0.7.0
+SOURCE_VERSION=/Users/albertowusu-asare/go/src/github.com/albertowusuasare/customer-app/script
 DEPLOY_PATH=customer-app-deploy
 HOME=$(pwd)
 FUNCTION_PATH=customer-app/functions
