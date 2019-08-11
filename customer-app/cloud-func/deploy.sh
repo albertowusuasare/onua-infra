@@ -1,7 +1,7 @@
 #!/bin/sh
 export MOD_PKG_NAME=functions
 PROJECT_ID=onua-246719
-SOURCE_VERSION=v0.5.0
+SOURCE_VERSION=v0.7.0
 DEPLOY_PATH=customer-app-deploy
 HOME=$(pwd)
 FUNCTION_PATH=customer-app/cmd/customer-svc-func-gcp
